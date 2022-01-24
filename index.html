@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Hamza Patel Portfolio </title>
+  <title>Personal Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -19,16 +19,17 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Personal - v2.4.0
+  * Template Name: Personal - v4.7.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -38,32 +39,32 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
+  <header id="header">
     <div class="container">
 
       <h1><a href="index.html">PiXEL SLATE DESIGNS</a></h1>
 	  <h1><a href="index.html">Hamza Patel</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>graphic designer</span> from Ridgeway</h2>
+      <h2>I'm a passionate <span>multimedia designer</span> from Ridgeway</h2>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav id="navbar" class="navbar">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-         <!-- <li><a href="#services">Services</a></li> -->
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Skills</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -85,13 +86,16 @@
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Graphic Designer</h3>
-          
+          <h3>Multimedia Designer</h3>
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
                 <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 26 July 2001</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> https://011012607201.github.io/Portfolio/</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> https://pixelslate.github.io/Portfolio/</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +27 73 829 2105</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Location:</strong> Ridgeway, Johannesburg</li>
               </ul>
@@ -99,14 +103,14 @@
             <div class="col-lg-6">
               <ul>
                 <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 19</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Matric</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Matric (currently in University)</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> zenus260@gmail.com.com</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
               </ul>
             </div>
           </div>
           <p>
-            Graphic Design Intern ready for a new internship where creativity talents can be utilized. Capable of dedicating 24 hours per week to an internship. Adept at developing creative ideas for original content and editing various graphics, charts, ads, and presentations. Willing to learn and apply new skills quickly and accurately. Passionate about graphic design and using my skills to make visions and design concepts a reality.
+            Multimedia Intern ready for a new internship where creativity talents can be utilized. Capable of dedicating 24 hours per week to an internship. Adept at developing creative ideas for original content and editing various graphics, charts, ads, and presentations. Willing to learn and apply new skills quickly and accurately. Passionate about graphic design and using my skills to make visions and design concepts a reality.
           </p>
         </div>
       </div>
@@ -137,7 +141,7 @@
         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
           <div class="count-box">
             <i class="icofont-flame-torch"></i>
-            <span data-toggle="counter-up">4</span>
+            <span data-toggle="counter-up">5</span>
             <p>Years of Experience</p>
           </div>
         </div>
@@ -176,7 +180,7 @@
       </div>
 <ul><li>Experience with HTML and
 CSS</li>
-<li>4 Years of Graphic design
+<li>5 Years of Graphic design
 experience with Photoshop,
 Lightroom, Adobe illustrator
 and Affinity Publisher</li>
@@ -184,8 +188,7 @@ and Affinity Publisher</li>
 experience with Adobe
 After Effects, Premiere
 Pro and Hitfilm</li>
-<li>Experience with 3D software such as Blender,
-Unity, Sculptris and
+<li>Experience with 3D software such as Blender, Sculptris and
 magicavoxel</li>
 <li>Capable with audio editing
 and mixing, experience
@@ -193,7 +196,8 @@ with Audacity.</li>
 <li>Proficient in Microsoft
 Word, Excel, Access and
 Powerpoint</li> </ul>
-      <div class="row skills-content">
+
+<div class="row skills-content">
 
         <div class="col-lg-6">
 
@@ -219,20 +223,20 @@ Powerpoint</li> </ul>
           </div>
 		  
 		  <div class="progress">
-            <span class="skill">3D <i class="val">40%</i></span>
+            <span class="skill">3D <i class="val">50%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
         </div>
 
-        <div class="col-lg-6">
+         <div class="col-lg-6">
 
           <div class="progress">
-            <span class="skill">Illustrator <i class="val">60%</i></span>
+            <span class="skill">Illustrator <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -344,14 +348,16 @@ Powerpoint</li> </ul>
     <div class="testimonials container">
 
       <div class="section-title">
-        <h2>references</h2>
+        <h2>Testimonials</h2>
       </div>
 
-      <div class="owl-carousel testimonials-carousel">
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
 
-        
+          
 
-        <div class="testimonial-item">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
             Hamza is a hard-working self-starter who understands exactly what a project is all about from the outset, and how to get it done quickly and effectively. He is able to meet deadlines, as well as work responsibly. He is resourceful, creative and solution oriented. Hamza is always ready to face a challenge head on. 
@@ -362,8 +368,10 @@ Powerpoint</li> </ul>
           <h3>Somayyah Sayed</h3>
           <h4>Trainer | Altron Bytes | 083 356 2762</h4>
         </div>
+          </div><!-- End testimonial item -->
 
-        <div class="testimonial-item">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 			Hamza's work is a reflection of his morals and values as well as his hard work and dedication. I heartily recommend Hamza for any career he chooses. He will excel at anything he applies himself to.
@@ -373,10 +381,10 @@ Powerpoint</li> </ul>
           <h3>Anusia Naidoo</h3>
           <h4>Teacher</h4>
         </div>
+          </div><!-- End testimonial item -->
 
-        
-
-        <div class="testimonial-item">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
             Hamza takes pride in delivering the best. He has a natural affinity and flair for delivering the best with regards to current trends and new technologies. I am confident that he will be an asset to any team.
@@ -386,8 +394,10 @@ Powerpoint</li> </ul>
           <h3>Zainab Patel</h3>
           <h4>Manager | Kinesio health-084 294 8038</h4>
         </div>
-		
-		<div class="testimonial-item">
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
             
@@ -398,6 +408,13 @@ On an interpersonal level, Hamza is a great communicator who knows how to discus
           <h3>Jean-Marie Els</h3>
           <h4>Teacher</h4>
         </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel">
 
       </div>
 
@@ -414,7 +431,7 @@ On an interpersonal level, Hamza is a great communicator who knows how to discus
         <p>View My Resume</p>
       </div>
 
-      <div class="row">
+     <div class="row">
         <div class="col-lg-6">
           <h3 class="resume-title">Summary</h3>
           <div class="resume-item pb-0">
@@ -504,12 +521,12 @@ ZERO</em></p>
     </div>
   </section><!-- End Resume Section -->
 
-  <!-- ======= Services Section ======= 
+  <!-- ======= Services Section ======= -->
   <section id="services" class="services">
     <div class="container">
 
       <div class="section-title">
-        <h2>Services</h2>
+        <h2>Skills</h2>
         <p>My Services</p>
       </div>
 
@@ -533,7 +550,7 @@ ZERO</em></p>
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-face"></i></div>
-            <h4><a href="">Photo Retouching</a></h4>
+            <h4><a href="">High-end Photo Retouching</a></h4>
             <p>Altering images for final presentation</p>
           </div>
         </div>
@@ -541,11 +558,11 @@ ZERO</em></p>
 		
 		
 		
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-category"></i></div>
             <h4><a href="">Marketing Design</a></h4>
-            <p>Posters, Flyers, Infographics, PowerPoint presentations, Banners, Ads etc</p>
+            <p>Posters, Flyers, Infographics, Banners, Ads, advertising graphics etc</p>
           </div>
         </div>
 
@@ -564,7 +581,32 @@ ZERO</em></p>
             <p>Cutting, editing and rearranging video shots to create promotional and concept material</p>
           </div>
         </div>
-
+		
+		<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-play-circle"></i></div>
+            <h4><a href="">Motion Graphics</a></h4>
+            <p>Short animations including logo animations, transitions, reveals, visual effects and more</p>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-cube"></i></div>
+            <h4><a href="">Product mockups and conceptualisation</a></h4>
+            <p>Visualising concepts of products or items, either as 3D renders or static images</p>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxs-file-image
+"></i></div>
+            <h4><a href="">Content Design</a></h4>
+            <p>Creation of graphics and elements for use in advertisements and other promotional materials</p>
+          </div>
+        </div>
+		
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-book-alt"></i></div>
@@ -572,11 +614,12 @@ ZERO</em></p>
             <p>Creation and modification of general publications and graphics for print or distribution</p>
           </div>
         </div>
+        </div>
 
       </div>
 
     </div>
-  </section> End Services Section -->
+  </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
@@ -594,13 +637,12 @@ ZERO</em></p>
             <li data-filter=".filter-Manipulations">Manipulations</li>
             <li data-filter=".filter-gd">Graphic Design</li>
             <li data-filter=".filter-3D">3D</li>
+			<li data-filter=".filter-Branding">Brand Identity</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
-
-
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-gd">
           <div class="portfolio-wrap">
@@ -609,8 +651,8 @@ ZERO</em></p>
               <h4>Chiropractic Logo Design</h4>
               <p>Logo</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="Logo 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#chiro" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="chiro.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -625,8 +667,8 @@ ZERO</em></p>
               <h4>Personal Logo</h4>
               <p>Logo</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="personalogo.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -639,8 +681,8 @@ ZERO</em></p>
               <h4>Character Design</h4>
               <p>Manipulation</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#char" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                <a href="char.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -653,40 +695,30 @@ ZERO</em></p>
               <h4>Photobash</h4>
               <p>Manipulation</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="photobash.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-Manipulations">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Crying Skull Pixel Sort</h4>
-              <p>Manipulation</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-gd">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/witcher.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Wallpaper</h4>
+              <h4>Book cover</h4>
               <p>Graphic</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/witcher.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="book.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
+		
+		
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-Manipulations">
           <div class="portfolio-wrap">
@@ -695,8 +727,8 @@ ZERO</em></p>
               <h4>Gundam Composition</h4>
               <p>Manipulation</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#1" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="1.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -710,8 +742,8 @@ ZERO</em></p>
               <h4>Holy Diver</h4>
               <p>Manipulation</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#holydiver" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="holydiver.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -724,8 +756,36 @@ ZERO</em></p>
               <h4>Train Photo Manipulation</h4>
               <p>Manipulation</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-10.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="train.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lighter.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Print poster</h4>
+              <p>Graphic Design</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/lighter.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="print.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Ints.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Lockdown poster</h4>
+              <p>Graphic Design</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Ints.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="ints.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -738,8 +798,8 @@ ZERO</em></p>
               <h4>Pool Party Flyer</h4>
               <p>Graphic Design</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/gdpool.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/gdpool.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="pool.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -752,8 +812,8 @@ ZERO</em></p>
               <h4>Flyer Design</h4>
               <p>Flyer</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#water" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="water.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -766,8 +826,8 @@ ZERO</em></p>
               <h4>Benefit Fair Flyer</h4>
               <p>Graphic Design</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/gdfair.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#fair" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/gdfair.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="fair.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -775,85 +835,23 @@ ZERO</em></p>
 		
 		
 		
-		<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/gdleft.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Graphic for print</h4>
-              <p>Graphic Design</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/gdleft.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 		
-		<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/gdleft2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Graphic for print v2</h4>
-              <p>Graphic Design</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/gdleft2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 		
-		<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/ambi.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Ambigram</h4>
-              <p>Graphic Design</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/ambi.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 		
-		<div class="col-lg-4 col-md-6 portfolio-item filter-Manipulations">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/manphon.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Red Telephone</h4>
-              <p>Manipulation</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/manphon.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 		
-		<div class="col-lg-4 col-md-6 portfolio-item filter-Manipulations">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/zeb.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Zebra</h4>
-              <p>Manipulation</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/zeb.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+		
+		
+		
 		
 		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/trophy.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>UJ trophy display</h4>
-              <p>3D Model</p>
+              <p>3D Visualization</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/trophy.png" data-gall="portfolioGallery" class="venobox" title="3D 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/trophy.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="trophy.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -864,10 +862,10 @@ ZERO</em></p>
             <img src="assets/img/portfolio/ring.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Ring conceptualization</h4>
-              <p>3D Model</p>
+              <p>3D Visualization</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/ring.jpg" data-gall="portfolioGallery" class="venobox" title="3D 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/ring.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="ring.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -880,8 +878,8 @@ ZERO</em></p>
               <h4>Ambient sculpture render</h4>
               <p>3D scene composition</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/ring.jpg" data-gall="portfolioGallery" class="venobox" title="3D 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html#herc" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/herc.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="herc.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -889,31 +887,93 @@ ZERO</em></p>
 		
 		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/benny.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/9.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Lego character portaits</h4>
-              <p>3D portrait</p>
+              <h4>Title sequence concept</h4>
+              <p>3D scene composition</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/benny.png" data-gall="portfolioGallery" class="venobox" title="3D 4"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="film.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="film.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 		
-		<!--video embed <div class="col-lg-4 col-md-6 portfolio-item filter-gd">
+		
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
           <div class="portfolio-wrap">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qImxymJofXc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <img src="assets/img/portfolio/phon.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Chiropractic Logo Design</h4>
-              <p>Logo</p>
+              <h4>Huawei Nova 8i</h4>
+              <p>Product render</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="https://www.youtube.com/embed/qImxymJofXc" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/phon.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="phon.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/mug.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Huawei Nova 8i</h4>
+              <p>Product render</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/mug.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="mug.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/rose.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Huawei Nova 8i</h4>
+              <p>Product render</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rose.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="rose.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-3D">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/cloud.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Huawei Nova 8i</h4>
+              <p>Product render</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/cloud.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="cloud.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		
+	
+		
+		<div class="col-lg-4 col-md-6 portfolio-item filter-Brand Identity">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/film.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Music Festival Concept</h4>
+              <p>Branding</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/film.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="brand.html" data-gall="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 
@@ -1004,19 +1064,17 @@ ZERO</em></p>
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    
+   <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>  -->
   </div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
